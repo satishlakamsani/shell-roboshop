@@ -3,7 +3,7 @@
 SG_ID="sg-0fd8d557c62aa017e"  #replace with your security group id
 AMI_ID="ami-0220d79f3f480ecf5" #replace with your desired AMI ID
 ZONE_ID="Z0031972RV2QBNE1P8DT" #replace with your hosted zone ID
-DOMAIN-NAME="pugasaha.online" #replace with your domain"
+DOMAIN_NAME="pugasaha.online" #replace with your domain"
 
 for instance in $@
 do 
