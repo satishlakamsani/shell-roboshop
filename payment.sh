@@ -26,9 +26,8 @@ VALIDATE(){
     fi
 }
 
-
-dnf install python3 gcc python-3-devil -y &>>LOGS_FILE
-VALIDATE $? "Installing python"
+dnf install python3 gcc python3-devel -y &>>$LOGS_FILE
+VALIDATE $? "Installing Python"
 
 id roboshop &>>$LOGS_FILE
 if [ $? -ne 0 ]; then
